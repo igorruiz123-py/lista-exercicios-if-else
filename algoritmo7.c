@@ -15,13 +15,6 @@ void FlushBuffer(){
     while((temp = getchar()) != '\n' && temp != EOF);
 }
 
-void ErrorMessage(){
-    printf("Invalid Entry! \n");
-    FlushBuffer();
-
-    printf("\n");
-}
-
 void DisplaySortedNumbers(int Num1, int Num2, int Num3){
     int temp = 0;
 
