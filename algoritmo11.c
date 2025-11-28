@@ -33,7 +33,7 @@ int main(){
 
         printf("\n");
 
-        if (side1 < side2 + side3 || side2 < side1 + side3 || side3 < side1 + side2){
+        if (side1 < side2 + side3 && side2 < side1 + side3 && side3 < side1 + side2){
             printf("The sides make a triangle! \n");
         }
 
